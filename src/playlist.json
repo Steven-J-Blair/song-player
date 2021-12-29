@@ -1,0 +1,57 @@
+[
+  {
+    "title": "dead wrong intro",
+    "src": "https://kolber.github.io/audiojs/demos/mp3/01-dead-wrong-intro.mp3",
+    "poster": "https://images.unsplash.com/photo-1533883355737-25ab4d1fbefb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e596d702f8053a202b1ce231eaa2f999&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "title": "juicy-r",
+    "src": "https://kolber.github.io/audiojs/demos/mp3/02-juicy-r.mp3",
+    "poster": "https://images.unsplash.com/photo-1533850450222-555585f910f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8b5c7cbfc0c10cb3128875cd67c13f5a&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "title": "its all about the crystalizabeths",
+    "src": "https://kolber.github.io/audiojs/demos/mp3/03-its-all-about-the-crystalizabeths.mp3",
+    "poster": "https://images.unsplash.com/photo-1533843953717-d5d817ed871d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=21a3afe3f84390d696b34ce9d940dda2&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "src": ":https://kolber.github.io/audiojs/demos/mp3/04-islands-is-the-limit.mp3",
+    "title": "islands is the limit",
+    "poster": ""
+  },
+  {
+    "src": ":https://kolber.github.io/audiojs/demosmp3/05-one-more-chance-for-a-heart-to-skip-a-beat.mp3",
+    "title": "one more chance for a heart to skip a beat",
+    "poster": "https://images.unsplash.com/photo-1533827258602-9c546e99b747?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d0d6eb718d25ca520ef4a3241aea46a5&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "src": "https://kolber.github.io/audiojs/demos/mp3/06-suicidal-fantasy.mp3",
+    "title": "suicidal fantasy",
+    "poster": "https://images.unsplash.com/photo-1533892636137-4ea784c23a84?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=25dd4ce5d889a962be580046360d3ff6&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "src": "https://kolber.github.io/audiojs/demos/mp3/07-everyday-shelter.mp3",
+    "title": "everyday shelter",
+    "poster": "https://images.unsplash.com/photo-1533837040043-e02d4f142f2f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9ad949cd59f29ad159c1b03b59781503&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "src": "https://kolber.github.io/audiojs/demos/mp3/08-basic-hypnosis.mp3",
+    "title": "basic hypnosis",
+    "poster": "https://images.unsplash.com/photo-1533900324105-5be762d65192?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1e6eff147d830fef14a474be6558073b&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "src": "https://kolber.github.io/audiojs/demos/mp3/09-infinite-victory.mp3",
+    "title": "infinite victory",
+    "poster": "https://images.unsplash.com/photo-1533888716067-a09ad77c53df?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e9bf70ecf2256260edf271ea96e2e301&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "src": "https://kolber.github.io/audiojs/demos/mp3/10-the-curious-incident-of-big-poppa-in-the-nighttime.mp3",
+    "title": "the curious incident of big poppa in the nighttime",
+    "poster": "https://images.unsplash.com/photo-1533850595620-7b1711221751?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=637eac802b6db03d13c6001c526dce56&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "src": "https://kolber.github.io/audiojs/demos/mp3/11-mo-stars-mo-problems.mp3",
+    "title": "mo stars mo problems",
+    "poster": "https://images.unsplash.com/photo-1533904842716-e7071a20656d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=34c5a2a86f1149ea4957bc67292cbd4d&auto=format&fit=crop&w=500&q=60"
+  }
+]

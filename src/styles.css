@@ -1,0 +1,181 @@
+:root {
+  --color1: #141a1d;
+  --color2: #e4b960;
+  --color3: #ee7c01;
+  --color4: #f2f3f4;
+  --desktopWidth: 25em;
+  --DesktopHeight: 30em;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(https://images.unsplash.com/photo-1533838426735-bb3ef53915f8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=63ab38ba22bf8d4190041cb93265e619&auto=format&fit=crop&w=1950&q=80)
+    repeat top right fixed var(--color1);
+  background-size: cover;
+
+  line-height: 1.6;
+  color: var(--color1);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.demo {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: var(--desktopWidth);
+  height: var(--DesktopHeight);
+}
+
+audio {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: var(--color4);
+}
+
+.mp {
+  background: var(--color1);
+  width: var(--desktopWidth);
+  box-shadow: 0px 8px 20px -6px #000;
+}
+
+.mp_head_poster {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  overflow: hidden;
+  height: 15em;
+}
+.mp_head_poster img {
+  width: 100%;
+  display: block;
+  animation: fade 500ms 1 ease;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+
+.loaded_text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color3);
+  color: var(--color4);
+  padding: 1em;
+  display: block;
+  font-size: 12px;
+  animation: loading 800ms infinite ease;
+}
+
+@keyframes loading {
+  from {
+    top: -100%;
+  }
+}
+
+.mp_head_poster figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  width: 100%;
+  background: var(--color1);
+  color: var(--color2);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.mp_body {
+  background: var(--color4);
+  max-height: calc(var(--DesktopHeight) - 10em);
+  overflow-y: scroll;
+  padding: 0.5em;
+  font-size: 12px;
+}
+
+.mp_body ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mp_body ol li {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.mp_body ol li a {
+  display: block;
+  padding: 1em 0em;
+  margin: 0.2em auto;
+  width: 100%;
+  text-decoration: none;
+  background: var(--color4);
+  border-radius: 2px;
+  border: 1px solid var(--color4);
+  color: var(--color1);
+  transition: background 500ms ease;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mp_body ol li a b {
+  color: var(--color3);
+  padding: 0.8em 1em;
+}
+
+.mp_body ol li a:hover,
+.mp_body ol li a:focus,
+.mp_body ol li a.active {
+  background: var(--color1);
+  border-color: var(--color1);
+  color: var(--color4);
+  transition: background 500ms ease;
+}
+
+.mp_footer {
+  position: relative;
+  border-top: 3px solid var(--color1);
+}
+
+@media (max-width: 25em) {
+  .demo {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  .mp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    box-shadow: none;
+  }
+  .mp_body {
+    min-height: calc(100vh - 20em);
+  }
+}
